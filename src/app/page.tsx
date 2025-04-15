@@ -54,7 +54,7 @@ export default function Home() {
         {/* Detector Section with improved visual treatment */}
         <section id="analyze" className='bg-muted/30 py-10'>
         <div className="relative mx-auto w-full mt-9 max-w-4xl overflow-x-hidden">
-          <div className="mb-10 text-center">
+          <div className="mb-10 text-center mx-5">
             <h2 className="mb-2 text-3xl font-bold tracking-tight md:text-4xl">Analyze Your Image - Fake Image Detection</h2>
             <p className="text-muted-foreground">Upload any suspicious image to check if it's been subject to <strong className="text-foreground">photo manipulation</strong> or forgery using our advanced <strong className="text-foreground">fake image detector</strong>.</p>
           </div>
