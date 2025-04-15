@@ -153,7 +153,7 @@ const ImageDropzone = ({ file, setFile, bottomContent }: ImageDropzoneProps) => 
             <span className="font-semibold">Click to upload</span> or drag and drop
           </p>
           <p className="text-xs text-gray-500 dark:text-gray-400">
-            Image only (Max: 10MB)
+            Image only (Max: {MAX_FILE_SIZE / (1024 * 1024)}MB)
           </p>
           <input
             ref={fileInputRef}
