@@ -13,7 +13,6 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
 
-
   return (
     <>
       <Navbar />
@@ -31,7 +30,7 @@ export default function Home() {
               </h1>
               
                 <p className="mx-auto mt-6 max-w-2xl text-pretty text-sm text-muted-foreground md:text-base">
-                Our free fake image detector helps you identify forged, tampered, altered images, and photoshopped pictures with industry-leading accuracy. Perform fake image detection easily - no signup required, just upload and analyze. Your go-to image fake checker.
+                Our free and open source fake image detector helps you identify forged, tampered, altered images, and photoshopped pictures with industry-leading accuracy. Perform fake image detection easily - no signup required, just upload and analyze. Your go-to image fake checker.
                 </p>
               
               <div className="mt-10 flex items-center gap-4">
@@ -114,8 +113,8 @@ export default function Home() {
               },
               {
                 icon: <Award className="size-10 text-primary" />,
-                title: "Completely Free",
-                description: "No account creation, no hidden fees, just upload and analyze"
+                title: "Open Source",
+                description: "Fully transparent and community-driven. Check out our source code on GitHub."
               },
               {
                 icon: <Users className="size-10 text-primary" />,
@@ -293,7 +292,7 @@ export default function Home() {
 
 
 export const metadata: Metadata = {
-  title: 'Fake Image Detector Online - Detect Photoshopped & Altered Images',
+  title: 'Fake Image Detector Online - Detect Photoshopped & Tampered Images',
   description: 'Free fake image detector to check for photoshopped, altered images, and photo manipulation. Advanced image fake checker & fotoforensics tool. Upload now!',
   keywords: ['fake image detector', 'fake image detection', 'fotoforensics', 'altered image', 'photoshopped', 'photo manipulation', 'photoshop manipulation', 'image fake checker', 'image forensics', 'image manipulation detection', 'image authentication', 'image analysis'],
   authors: [{ name: 'Ankit Chaurasiya' }], // Keep or update as needed
